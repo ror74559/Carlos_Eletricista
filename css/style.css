@@ -16,7 +16,7 @@
 
 #alinhar{
 	text-align: center;
-	margin-top: 2%;
+	margin-top: 72px;
 	margin-bottom: 2%;
 
 }
@@ -52,18 +52,20 @@ footer{
 	margin-left: 0px;
 	
 	border-radius: 50%;
-	box-shadow: 7px 7px 15px 8px rgba(0, 0, 0, 0.17);
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
 }
 
 .whats{
 	width: 70px;
 	z-index: 100;
 	bottom: 30px;
-	right: 15px;
+	right: 0px;
 	position: fixed;
 	padding-right: 3px;
 	border-radius: 50%;
-	box-shadow: 7px 7px 15px 8px rgba(0, 0, 0, 0.17);
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
 }
 .fa-ul li{
 	display:block;
@@ -71,4 +73,28 @@ footer{
 }
 .card-title{
 	text-align: center;
+}
+nav {
+	color: white;
+}
+nav a h2 img{
+	 width: 1.5em;
+	  border-radius: 50%;
+	  margin-right: 3px;
+}
+#mTopo {
+	margin-top: 72px;
+
+}
+#oferecidos{
+	font-size: 2.5em;
+}
+.sombra{
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+.card{
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+
 }
